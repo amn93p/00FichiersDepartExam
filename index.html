@@ -1,30 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 	<head>
+		<!-- Utilisation correcte du DOCTYPE et de l'attribut de langue -->
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- Assure la réactivité sur les appareils mobiles -->
 		<link rel="stylesheet" href="css/style.css" />
 		<title>Document</title>
 	</head>
 	<body class="bounceInDown">
+		<!-- Utilisation de la classe pour l'animation au chargement de la page -->
 		<header>
+			<!-- En-tête avec logo et titre principal -->
 			<img src="images/logo.png" alt="Logo" />
 			<h1>Bonjour Julien,</h1>
 		</header>
 		<nav>
+			<!-- Barre de navigation principale -->
+			<p id="slogan">Lorem ipsum dolor <span>sit amet</span></p>
+			<!-- Utilisation de span pour mettre en évidence une partie du texte -->
 			<ul>
-				<p id="slogan">Lorem ipsum dolor <span>sit amet</span></p>
-				<li><a href="#">Contactez-nous</a></li>
-				<li><a href="#">Parrainage</a></li>
-				<li><a href="#">Déconnexion</a></li>
+				<!-- Liste de navigation avec des liens interactifs -->
+				<li>
+					<a class="hvr-underline-reveal hvr-grow-shadow" href="#"
+						>Contactez-nous</a
+					>
+				</li>
+				<li>
+					<a class="hvr-underline-reveal hvr-grow-shadow" href="#"
+						>Parrainage</a
+					>
+				</li>
+				<li>
+					<a class="hvr-underline-reveal hvr-grow-shadow" href="#"
+						>Déconnexion</a
+					>
+				</li>
 			</ul>
 		</nav>
 		<main>
+			<!-- Section principale pour le contenu -->
+
 			<img class="bg" src="images/header-page-catalogue.png" alt="Catalogue" />
+			<!-- Grille de produits avec effet au survol -->
 			<div class="product-grid">
-				<div class="product-item">
+				<div class="product-item hvr-grow-shadow">
 					<img src="images/gant-boxe-2.png" alt="Gant de boxe" />
-					<div id="promo">
+					<div>
 						<p class="promo"><span>- 45%</span></p>
 					</div>
 					<div class="inline">
@@ -32,9 +54,9 @@
 						<p><s>120 €</s> <span>65 €</span></p>
 					</div>
 				</div>
-				<div class="product-item">
+				<div class="product-item hvr-grow-shadow">
 					<img src="images/gant-boxe-1.png" alt="Produit 2" />
-					<div id="promo">
+					<div>
 						<p class="promo"><span>- 45%</span></p>
 					</div>
 					<div class="inline">
@@ -42,9 +64,9 @@
 						<p><s>120 €</s> <span>65 €</span></p>
 					</div>
 				</div>
-				<div class="product-item">
+				<div class="product-item hvr-grow-shadow">
 					<img src="images/gant-boxe-2.png" alt="Produit 3" />
-					<div id="promo">
+					<div>
 						<p class="promo"><span>- 45%</span></p>
 					</div>
 					<div class="inline">
@@ -52,9 +74,9 @@
 						<p><s>120 €</s> <span>65 €</span></p>
 					</div>
 				</div>
-				<div class="product-item">
+				<div class="product-item hvr-grow-shadow">
 					<img src="images/gant-boxe-1.png" alt="Produit 4" />
-					<div id="promo">
+					<div>
 						<p class="promo"><span>- 45%</span></p>
 					</div>
 					<div class="inline">
@@ -64,6 +86,7 @@
 				</div>
 			</div>
 		</main>
+		<!-- Footer de la page -->
 		<footer>
 			<ul class="liste">
 				<li>Qui sommes-nous</li>
@@ -72,32 +95,32 @@
 				<li>CGV</li>
 			</ul>
 			<div class="footer-content">
-				<div class="infos">
-					<img src="images/icon-livre.png" />
+				<div class="infos hvr-grow-shadow">
+					<img src="images/icon-livre.png" alt="Image de livre" />
 					<p class="pfooter1">
 						Sed ut perspiciatis unde omnis iste natus<br />
 						error sit voluptatem accusantium<br />
 						doloremque audantium, totam rem aperiam
 					</p>
 				</div>
-				<div class="infos">
-					<img src="images/icon-camion.png" />
+				<div class="infos hvr-grow-shadow">
+					<img src="images/icon-camion.png" alt="Image de camion" />
 					<p class="pfooter1">
 						Sed ut perspiciatis unde omnis iste natus<br />
 						error sit voluptatem accusantium<br />
 						doloremque audantium, totam rem aperiam
 					</p>
 				</div>
-				<div class="infos">
-					<img src="images/icon-cadenat.png" />
+				<div class="infos hvr-grow-shadow">
+					<img src="images/icon-cadenat.png" alt="Image de cadenat" />
 					<p class="pfooter1">
 						Sed ut perspiciatis unde omnis iste natus<br />
 						error sit voluptatem accusantium<br />
 						doloremque audantium, totam rem aperiam
 					</p>
 				</div>
-				<div class="infos">
-					<img src="images/icon-pouce.png" />
+				<div class="infos hvr-grow-shadow">
+					<img src="images/icon-pouce.png" alt="Image d'un pouce en l'air" />
 					<p class="pfooter1">
 						Sed ut perspiciatis unde omnis iste natus<br />
 						error sit voluptatem accusantium<br />
@@ -106,9 +129,10 @@
 				</div>
 			</div>
 			<div class="reseaux">
-				<img src="images/icon-facebook.png" /><img
+				<img src="images/icon-facebook.png" alt="Logo Facebook" /><img
 					src="images/icon-twitter.png"
-				/><img src="images/icon-linkedin.png" />
+					alt="Logo Twitter"
+				/><img src="images/icon-linkedin.png" alt="Logo Linkedin" />
 			</div>
 			<div class="droits">
 				&copy; 2013 sport privilege. Tous droits réservés.
